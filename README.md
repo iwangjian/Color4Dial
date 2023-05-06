@@ -1,13 +1,14 @@
 # Color4Dial
-This repository contains code and data for the paper [Dialogue Planning via Brownian Bridge Stochastic Process for Goal-directed Proactive Dialogue]() (to appear) accepted as Findings of ACL'2023.
+This repository contains code and data for the paper [Dialogue Planning via Brownian Bridge Stochastic Process for Goal-directed Proactive Dialogue](https://github.com/iwangjian/Color4Dial) (to appear) accepted as Findings of ACL'2023.
 
 
 ## Overview
-Goal-directed dialogue systems aim to proactively reach a pre-determined target through multi-turn conversations. The key to achieving this task lies in planning dialogue paths that smoothly and coherently direct a dialogue towards the target. In this work, we propose a <u>**c**</u>oherent dial<u>**o**</u>gue p<u>**l**</u>anning approach via Br<u>**o**</u>wnian b<u>**r**</u>idge (**COLOR**) stochastic process, to model the temporal dynamics of dialogue paths. We define a latent space that captures the coherence of goal-directed behavior using a Brownian bridge process, which allows us to adapt user feedback flexibly to the dialogue context. We generate dialogue paths based on pre-trained language models that are consistent with the latent plan. We finally employ these paths as natural language prompts to guide dialogue generation.
+Goal-directed dialogue systems aim to proactively reach a pre-determined target through multi-turn conversations. The key to achieving this task lies in planning dialogue paths that smoothly and coherently direct conversations towards the target. In this work, we propose a <u>c</u>oherent dial<u>o</u>gue p<u>l</u>anning approach via Br<u>o</u>wnian b<u>r</u>idge (**COLOR**) stochastic process, to model the temporal dynamics of dialogue paths. We define a latent space that captures the coherence of goal-directed behavior using a Brownian bridge process, which allows us to incorporate user feedback flexibly in dialogue planning. Based on the derived latent trajectories, we generate dialogue paths explicitly using pre-trained language models. We finally employ these paths as natural language prompts to guide dialogue generation.
 
 <p align="center">
 <img src="figure/overview.png" width="100%" />
 </p>
+
 
 ## Requirements
 To be released ...
