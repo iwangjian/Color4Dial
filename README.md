@@ -61,12 +61,15 @@ For more details of parameter settings, please refer to `main_dialog.py`.
 ## Evaluation
 To evaluate the performance dialogue planning, please run:
 ```python
-python eval/eval_planning.py --dataset <dataset_name> --eval_file <path_to_eval> --gold_file <path_to_gold_data>
+python eval/eval_planning.py --dataset <dataset_name> \
+  --eval_file <path_to_eval> \
+  --gold_file <path_to_gold_data>
 ```
 To evaluate the performance of dialogue generation, please run:
 ```python
 # for DuRecdial 2.0 dataset
-python eval/eval_dialog_durecdial.py --eval_file <path_to_eval> --gold_file <path_to_gold_data>
+python eval/eval_dialog_durecdial.py --eval_file <path_to_eval> \
+--gold_file <path_to_gold_data>
 
 # for TGConv dataset
 python eval/eval_dialog_tgconv_selfplay.py --eval_file <path_to_eval>
