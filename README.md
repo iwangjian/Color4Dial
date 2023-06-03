@@ -1,5 +1,5 @@
 # Color4Dial
-This repository contains code and data for the paper [Dialogue Planning via Brownian Bridge Stochastic Process for Goal-directed Proactive Dialogue](https://github.com/iwangjian/Color4Dial) (to appear) accepted as Findings of ACL'2023.
+This repository contains code and data for the paper [Dialogue Planning via Brownian Bridge Stochastic Process for Goal-directed Proactive Dialogue](https://arxiv.org/abs/2305.05290) accepted as Findings of ACL-2023.
 
 
 ## Overview
@@ -23,7 +23,7 @@ If you use our code or data in your work, please kindly cite our work as:
 @inproceedings{wang2023dialogue,
   title = {Dialogue Planning via Brownian Bridge Stochastic Process for Goal-directed Proactive Dialogue},
   author = {Wang, Jian and Lin Dongding, and Li, Wenjie},
-  booktitle = {Findings of Annual Meeting of the Association for Computational Linguistics (ACL)},
+  booktitle = {Findings of the Association for Computational Linguistics: ACL 2023},
   year = {2023}
 }
 ```
