@@ -69,7 +69,7 @@ To evaluate the performance of dialogue generation, please run:
 ```python
 # for DuRecdial 2.0 dataset
 python eval/eval_dialog_durecdial.py --eval_file <path_to_eval> \
---gold_file <path_to_gold_data>
+  --gold_file <path_to_gold_data>
 
 # for TGConv dataset
 python eval/eval_dialog_tgconv_selfplay.py --eval_file <path_to_eval>
