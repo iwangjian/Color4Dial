@@ -11,7 +11,7 @@ Goal-directed dialogue systems aim to proactively reach a pre-determined target 
 
 
 ## Requirements
-Suppose [Anaconda](https://www.anaconda.com/) is used to manage the environment. The required packages are listed in `requirements.txt`. You can install them by running:
+The required packages are listed in `requirements.txt`. Suppose you use [Anaconda](https://www.anaconda.com/) to manage the Python dependencies, you can install them by running:
 ```bash
 conda create -n color4dial python=3.10
 conda activate color4dial
@@ -19,15 +19,15 @@ pip install -r requirements.txt
 ```
 
 ## Datasets
-We upload the datasets used in our experiments to the OneDrive cloud storage. Please download [DuRecdial 2.0](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21037774r_connect_polyu_hk/EUX6GBdtYJRNuZ4HY-Y9Q30BtLitoxiOhZY3cCI9Y_b9dQ?e=wegoOQ) and [TGConv](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21037774r_connect_polyu_hk/EZ2XZ49qdwhGoMKsXx7GWxgBaIQKGNPphAi7NUhXV6hcyw?e=wjrB7l) datasets and put them in the `data` folder.
+We upload the datasets used in our experiments to the OneDrive cloud. Please download [DuRecDial 2.0](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21037774r_connect_polyu_hk/EUX6GBdtYJRNuZ4HY-Y9Q30BtLitoxiOhZY3cCI9Y_b9dQ?e=wegoOQ) and [TGConv](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21037774r_connect_polyu_hk/EZ2XZ49qdwhGoMKsXx7GWxgBaIQKGNPphAi7NUhXV6hcyw?e=wjrB7l) datasets and put them in the `data` folder.
 ```bash
 cd data
-unzip DuRecdial2.zip & rm DuRecdial2.zip
+unzip DuRecDial2.zip & rm DuRecDial2.zip
 unzip TGConv.zip & rm TGConv.zip
 ```
 
 ## Quickstart
-Take the DuRecdial 2.0 dataset as an example, our experiments are divided into three stages.
+Take the DuRecDial 2.0 dataset as an example, our experiments are divided into three stages.
 
 ### Stage 1: Brownian Bridge Mapping
 In this stage, we learn a mapping in the Brownian bridge latent space that captures coherent temporal dynamics for planning dialogue paths.
@@ -67,7 +67,7 @@ python eval/eval_planning.py --dataset <dataset_name> \
 ```
 To evaluate the performance of dialogue generation, please run:
 ```python
-# for DuRecdial 2.0 dataset
+# for DuRecDial 2.0 dataset
 python eval/eval_dialog_durecdial.py --eval_file <path_to_eval> \
   --gold_file <path_to_gold_data>
 
