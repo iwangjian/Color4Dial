@@ -1,5 +1,5 @@
 # Color4Dial
-This repository contains code and data for the paper [Dialogue Planning via Brownian Bridge Stochastic Process for Goal-directed Proactive Dialogue](https://arxiv.org/abs/2305.05290) accepted as Findings of ACL-2023.
+This repository contains code and data for the paper [Dialogue Planning via Brownian Bridge Stochastic Process for Goal-directed Proactive Dialogue](https://arxiv.org/abs/2305.05290) accepted by ACL Findings 2023.
 
 
 ## Overview
@@ -82,10 +82,17 @@ Our code is based on parts of the implementations of [Huggingface Transformers](
 ## Citation
 If you use our data or code in your work, please kindly cite our work as:
 ```bibtex
-@inproceedings{wang2023dialogue,
-  title = {Dialogue Planning via Brownian Bridge Stochastic Process for Goal-directed Proactive Dialogue},
-  author = {Wang, Jian and Lin Dongding, and Li, Wenjie},
-  booktitle = {Findings of the Association for Computational Linguistics: ACL 2023},
-  year = {2023}
+@inproceedings{wang-etal-2023-dialogue,
+    title = "Dialogue Planning via Brownian Bridge Stochastic Process for Goal-directed Proactive Dialogue",
+    author = "Wang, Jian  and
+      Lin, Dongding  and
+      Li, Wenjie",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.25",
+    pages = "370--387"
 }
 ```
