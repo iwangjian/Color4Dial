@@ -4,4 +4,4 @@ tqdm
 nltk>=3.8.1
 torch>=1.10.0
 transformers>=4.10.0
-pytorch-ignite>=0.2.1
+pytorch-ignite==0.2.1
