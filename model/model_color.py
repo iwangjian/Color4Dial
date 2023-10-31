@@ -168,6 +168,7 @@ class COLOR(BartPretrainedModel):
 
     def avg_pool(self, hidden_states, mask):
         length = torch.sum(mask, 1, keepdim=True).float()
+        length = length.clamp(min=1e-5)
         mask = mask.unsqueeze(2)
         hidden = hidden_states.masked_fill(mask == 0, 0.0)
         avg_hidden = torch.sum(hidden, 1) / length
