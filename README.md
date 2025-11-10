@@ -19,10 +19,10 @@ pip install -r requirements.txt
 ```
 
 ## Datasets
-We upload the datasets used in our experiments to the OneDrive cloud. Please download [DuRecDial 2.0](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21037774r_connect_polyu_hk/EUX6GBdtYJRNuZ4HY-Y9Q30BtLitoxiOhZY3cCI9Y_b9dQ?e=wegoOQ) and [TGConv](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21037774r_connect_polyu_hk/EZ2XZ49qdwhGoMKsXx7GWxgBaIQKGNPphAi7NUhXV6hcyw?e=wjrB7l) datasets and put them in the `data` folder.
+We upload the datasets used in our experiments to the OneDrive cloud. Please download [DuRecDial 2.0](https://drive.google.com/file/d/1qkYAeLw8k9LZ9Xo2MOvg_d1CTEPrAiKp/view?usp=sharing) and [TGConv](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21037774r_connect_polyu_hk/EZ2XZ49qdwhGoMKsXx7GWxgBaIQKGNPphAi7NUhXV6hcyw?e=wjrB7l) datasets and put them in the `data` folder.
 ```bash
 cd data
-unzip DuRecDial2.zip & rm DuRecDial2.zip
+unzip DuRecDial2.0.zip & rm DuRecDial2.0.zip
 unzip TGConv.zip & rm TGConv.zip
 ```
 
